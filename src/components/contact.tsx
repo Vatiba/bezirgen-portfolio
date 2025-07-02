@@ -5,6 +5,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { Icon } from "@iconify/react";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -42,15 +43,23 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      {/* <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:bezirgenyaylymow955@gmail.com">
-          bezirgenyaylymow955@gmail.com
-        </a>{" "}
-        or through this form.
-      </p>
+      </p> */}
 
-      <form
+      <div className="flex flex-wrap justify-center gap-4">
+        <a className="flex justify-center items-center rounded-full w-12 h-12 overflow-hidden hover:scale-110 shadow transition-transform duration-150 bg-white" href="mailto:bezirgenyaylymow955@gmail.com">
+          <Icon icon={'logos:google-gmail'} width={30} height={30}/>
+        </a>
+        <a className="flex justify-center items-center rounded-full w-12 h-12 overflow-hidden hover:scale-110 shadow transition-transform duration-150 bg-white" href="https://t.me/Vati955" target="_blank">
+          <Icon icon={'logos:telegram'} width={30} height={30}/>
+        </a>
+        <a className="flex justify-center items-center rounded-full w-12 h-12 overflow-hidden hover:scale-110 shadow transition-transform duration-150 bg-white" href="https://www.linkedin.com/in/bezirgen-yaylymow-5954ab244/" target="_blank">
+          <Icon icon={'logos:linkedin-icon'} width={30} height={30}/>
+        </a>
+      </div>
+
+      {/* <form
         className="mt-10 flex flex-col dark:text-black"
         onSubmit={handleSubmit} // Handle form submission here
       >
@@ -70,7 +79,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }
