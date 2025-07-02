@@ -36,14 +36,12 @@ export default function Education() {
           <p className="text-lg font-medium">
             Bachelor of Information Technology
           </p>
-          <p>Queensland University of Technology</p>
-          <p className="mt-1">Graduated in 2023</p>
-          <p className="my-1">GPA 6.2/7</p>
+          <p>Oguz han engineering and technology university of Turkmenistan</p>
+          <p className="mt-1">Graduated in 2025</p>
+          <p className="my-1">GPA 85/100</p>
           <ul className="list-disc pl-6">
             <li>Major in Computer Science</li>
-            <li>Minor in Networks & Security</li>
-            <li>Minor in Mobile Applications</li>
-            <li>Science & Engineering Dean's List - 2019 & 2021</li>
+            <li>Minor in Informatics and computing techniques</li>
           </ul>
         </div>
       </div>

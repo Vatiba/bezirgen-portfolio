@@ -44,9 +44,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Bayram.</span> I'm a{" "}
-        <span className="font-bold">backend engineer</span> at{" "}
-        <span className="font-bold">100haryt.com</span>. I specialize in Node.js, NestJS, Express, Fastify, GraphQL, and AWS with over 2 years of experience.
+        <span className="font-bold">Hello, I'm Bezirgen.</span> I'm a{" "}
+        <span className="font-bold">frontend engineer.</span> <br />
+        I specialize in React, Nextjs, React native with over 4 years of experience.
       </motion.h1>
 
       <motion.div
@@ -59,7 +59,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/BayramBabagulyyew"
+          href="https://github.com/Vatiba"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
@@ -67,7 +67,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/bayram-babagulyyew-7b72b5306/"
+          href="https://www.linkedin.com/in/bezirgen-yaylymow-5954ab244/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>
