@@ -3,13 +3,11 @@ import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
 import githubdp from "@/assets/images/githubdp.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -46,7 +44,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Bezirgen.</span> I'm a{" "}
         <span className="font-bold">frontend engineer.</span> <br />
-        I specialize in React, Nextjs, React native with over 4 years of experience.
+        I specialize in React, Nextjs, React native with over 5 years of experience.
       </motion.h1>
 
       <motion.div

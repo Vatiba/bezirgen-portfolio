@@ -3,6 +3,7 @@ import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import qutLogo from "@/assets/images/qut-Logo.png";
+import dgaLogo from "@/assets/images/dga-logo.png";
 
 export default function Education() {
   const { ref } = useSectionInView("Education");
@@ -26,7 +27,24 @@ export default function Education() {
       }}
     >
       <SectionHeading>My Education</SectionHeading>
+      <div className="mt-4 flex gap-6 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10 bg-gray-100 dark:bg-white/10 dark:hover:bg-white/20">
+        <div>
+          <img src={dgaLogo} alt="QUT" width="150" />
+        </div>
 
+        <div>
+          <p className="text-lg font-medium">
+            Magistry of Digital management
+          </p>
+          <p>Academy of State Service under the President of Turkmenistan</p>
+          <p className="mt-1">Graduated in 2026</p>
+          <p className="my-1">GPA 85/100</p>
+          {/* <ul className="list-disc pl-6">
+            <li>Major in Computer Science</li>
+            <li>Minor in Informatics and computing techniques</li>
+          </ul> */}
+        </div>
+      </div>
       <div className="mt-4 flex gap-6 border border-black/5 rounded-lg pt-4 pb-7 px-5 md:p-10 bg-gray-100 dark:bg-white/10 dark:hover:bg-white/20">
         <div>
           <img src={qutLogo} alt="QUT" width="150" />

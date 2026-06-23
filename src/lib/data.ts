@@ -4,6 +4,7 @@ import yuzharytMainPageImg from "@/assets/images/100haryt_mainPage.png";
 import yuzharytMobileAppImg from "@/assets/images/100haryt_mobileApp.png";
 import yuzharytShopAdminImg from "@/assets/images/100haryt_shopsAdmin.png";
 import yuzharytInternalAppsImg from "@/assets/images/100haryt_internalApps.png";
+import turkmenportalMainPageImg from '@/assets/images/tp-portal.png'
 import dowrebaphyzmat from "@/assets/images/dowrebaphyzmat.png";
 import burty from "@/assets/images/burty.png";
 
@@ -36,12 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Turkmenportal - Front end engineer",
+    location: "Turkmenistan - Ashgabat (On-site)",
+    description:
+      "Responsible for maintaining the client side of the media portal and adding new features using Next.js, React.js, and TypeScript. Handled the integration of bank payment gateways for subscriptions and balance top-ups on partner platforms (streaming and e-book services). Also involved in cross-platform mobile development (React Native) and building web interfaces for external commercial clients. Optimizing web performance and resolving bugs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2025 - Present days",
+  },
+  {
     title: "Montra - React native dev",
     location: "Malaysia - Kuala Lumpur (Remote)",
     description:
       "Building and maintaining cross-platform mobile apps. I focus on UI development, API integration, and state management using Zustand and React Query, ensuring smooth performance and a great user experience.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2025 - Present days",
+    date: "May 2025 - July 2025",
   },
   {
     title: "100haryt.com - Front end engineer",
@@ -70,6 +79,19 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Turkmenportal.com",
+    description:
+      "A major information and news media portal in Turkmenistan. Built with Next.js and TypeScript, the platform handles high user traffic, delivering news, articles, and media content smoothly. It features integrated bank payment gateways for seamless balance top-ups and subscriptions to partner streaming and digital book services.",
+    tags: ["Next js", "Typescript", "React js"],
+    icons: [
+      "skill-icons:nextjs-light",
+      "skill-icons:typescript",
+      "logos:react",
+    ],
+    imageUrl: turkmenportalMainPageImg,
+    urlLink: "https://turkmenportal.com/",
+  },
   {
     title: "100haryt.com",
     description:
